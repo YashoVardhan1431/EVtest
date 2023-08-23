@@ -4,7 +4,7 @@ const CCH = require("../controllers/CCH")
 
 const router = express.Router();
 
-router.get('/masterData', CCH.customerCommunication)
-router.get('/callData', CCH.callRecordData)
+router.get('/masterData', CCH.combArray)
+//router.get('/callData', CHH.result)
 
 module.exports = router;

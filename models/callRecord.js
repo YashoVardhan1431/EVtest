@@ -8,4 +8,4 @@ const callRecordSchema = new mongoose.Schema({
     callType: { type: String },
   });
   
-  module.exports = mongoose.model('CallRecord', callRecordSchema);
+module.exports = mongoose.model('CallRecord', callRecordSchema);
